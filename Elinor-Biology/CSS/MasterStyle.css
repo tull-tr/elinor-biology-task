@@ -1,0 +1,98 @@
+﻿h1 {
+    color: black;
+    background-color: lawngreen;
+    text-align: center;
+    font-family: Calibri;
+}
+
+h2 {
+    color: white;
+    text-align: right;
+    font-family: Calibri;
+}
+
+h3 {
+    font-family: Calibri;
+}
+
+h4 {
+    font-family: Calibri;
+}
+
+p {
+    font-family: Calibri;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+    float: right;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Calibri;
+}
+
+li a:hover {
+    background-color: darkgreen;
+}
+
+body {
+    background-color: black;
+}
+
+table, th, td {
+    border: medium;
+    border-style: solid;
+    border-color: green;
+    text-align: center;
+    border-spacing: 5px;
+    color: lawngreen;
+    border-collapse: collapse;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.tdmaster {
+    padding: 0px;
+}
+
+.thmaster {
+    padding: 0px;
+}
+
+.trmaster {
+    padding: 0px;
+}
+
+.menu {
+    width: 200px;
+    list-style-type: none;
+    overflow-y: auto;
+    font-family: Calibri;
+}
+
+.menu a {
+    background-color: green;
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    background-color: darkgreen;
+}

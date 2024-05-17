@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainPage.Master.cs" Inherits="Elinor_Biology.MainPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>גלובליזציה - גפן</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="CSS/MasterStyle.css"/>
+    <style>
+        h1 {
+            font-family: Calibri;
+        }
+    </style>
+    <div>
+        <h1>הפרויקט גמר של גפן - גלובליזציה</h1>
+    </div>
+    <table style="width: 100%">
+        <tr class="trmaster">
+            <td class="tdmaster" style="background-color: green">
+                <span><h3 style="color: white; font-size: 30px; text-align: center" id ="myTime"></h3></span>
+                <span><h3 style="color: white; font-size: 30px; text-align: center" id="date"></h3></span>
+            </td>
+            <td class="tdmaster">
+                <img src="ImagesLibrary/global8.jpeg" style="width: 100%; max-width: max-content"/>
+            </td>
+            <td class="tdmaster" style="background-color: green">
+                <center>
+                    <div class="menu">
+                        <h4 style="color:white; font-size: 25px;"><% Response.Write(msg); %></h4>
+                        <a href="user_register.aspx">הרשמה</a>
+                        <a href="user_logout.aspx">התנתק</a>
+                        <a href="user_login.aspx">התחבר</a>
+                        <a href="admin_login.aspx">התחברות מנהל</a>
+                    </div>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <center>
+    <ul type="square" style="color:white; text-align:center">
+        <li>
+        <a href="MainPage.aspx">עמוד ראשי</a>
+        </li>
+        <li>
+        <a href="sustainability.aspx">?מהי קיימות</a>
+        </li>
+        <li>
+        <a href="explain.aspx">הסבר בחירתי</a>
+        </li>
+        <li>
+        <a href="Table.aspx">התנגשות הגלובלי והלוקאלי</a>
+        </li>
+        <li>
+        <a href="Impact.aspx">התמודדות עם השלכות הגלובליזציה</a>
+        </li>
+        <li>
+        <a href="localglobal.aspx">ביות הלוקאליזציה והגלובליזציה</a>
+        </li>
+        <li>
+        <a href="antiglobal.aspx">אנטי-גלובליזציה</a>
+        </li>
+        <li>
+        <a href="Sports.aspx">גלרייה</a>
+        </li>
+        <li>
+        <a href="gallery.aspx">גלרייה נוספת</a>
+        </li>
+        <li>
+        <a href="video.aspx">סרטון</a>
+        </li>
+        <li>
+        <a href="video2.aspx">סרטון נוסף</a>
+        </li>
+        <li>
+        <a href="sources.aspx">מקורות מידע</a>
+        </li>
+    </ul>
+    </center>
+    <script src="JavaScriptCustom/DateAndTime.js">
+    </script>
+</head>
+<body>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    <h4 style="color:white; text-align: center; font-size: 25px; font-family: Calibri; ">האתר נכתב על ידי גפן אמבר ליפשיץ <a href ="mailto:geffenssj@gmail.com">צור קשר</a></h4>
+</body>
+</html>
