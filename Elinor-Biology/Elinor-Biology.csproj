@@ -245,13 +245,6 @@
     <Compile Include="ASPX\admin_page.aspx.designer.cs">
       <DependentUpon>admin_page.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ASPX\HomePage.aspx.cs">
-      <DependentUpon>HomePage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ASPX\HomePage.aspx.designer.cs">
-      <DependentUpon>HomePage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ASPX\MainPage.aspx.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -272,13 +265,6 @@
     </Compile>
     <Compile Include="ASPX\user_login.aspx.designer.cs">
       <DependentUpon>user_login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ASPX\user_login2.aspx.cs">
-      <DependentUpon>user_login2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ASPX\user_login2.aspx.designer.cs">
-      <DependentUpon>user_login2.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASPX\user_logout.aspx.cs">
       <DependentUpon>user_logout.aspx</DependentUpon>
@@ -319,13 +305,6 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MeViewModels.cs" />
-    <Compile Include="MySite.Master.cs">
-      <DependentUpon>MySite.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MySite.Master.designer.cs">
-      <DependentUpon>MySite.Master</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -349,11 +328,9 @@
     <Content Include="ASPX\admin_controller.aspx" />
     <Content Include="ASPX\admin_login.aspx" />
     <Content Include="ASPX\admin_page.aspx" />
-    <Content Include="ASPX\HomePage.aspx" />
     <Content Include="ASPX\MainPage.aspx" />
     <Content Include="ASPX\user_delete.aspx" />
     <Content Include="ASPX\user_login.aspx" />
-    <Content Include="ASPX\user_login2.aspx" />
     <Content Include="ASPX\user_logout.aspx" />
     <Content Include="ASPX\user_register.aspx" />
     <Content Include="ASPX\user_reset_password.aspx" />
@@ -476,7 +453,6 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="MySite.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
